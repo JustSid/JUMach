@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9398F19A0F420427AE5D08F3 /* JUMachAMD64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F37BF45A8A118B9B963C /* JUMachAMD64.c */; };
+		9398F34AADB091CAB0945054 /* JUMach.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F20A08FE2CD255781443 /* JUMach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398F3CE3765A8D11AEC562D /* JUMachAarch64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F47FBF51CAC3CC51A758 /* JUMachAarch64.c */; };
+		9398F3DA4E8DC3C64B414100 /* JUMachi386.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FFF9B83B628CF09C48F2 /* JUMachi386.c */; };
+		9398F40E4008FD450F342928 /* JUMachMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F084C1F0F27AE093079F /* JUMachMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398F461606A218454E172FF /* JUMachArm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FFDCE3215582A41397AA /* JUMachArm.c */; };
+		9398F53F9BDA828E19D276EC /* JUMachArm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FFDCE3215582A41397AA /* JUMachArm.c */; };
+		9398F81313BA50AB28C12936 /* JUMachAMD64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F37BF45A8A118B9B963C /* JUMachAMD64.c */; };
+		9398F8362856A3A2E9AB7E3A /* JUMachMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F084C1F0F27AE093079F /* JUMachMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398F8F30F2365AFFE376FE4 /* JUMachBacktrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FDDB44E4035744AFB821 /* JUMachBacktrace.c */; };
+		9398F95E933768345DFF729A /* JUMachAarch64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F47FBF51CAC3CC51A758 /* JUMachAarch64.c */; };
+		9398F97B28A3F9C0C8587387 /* JUMachThreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F60B06C287ED299EE0F4 /* JUMachThreads.c */; };
+		9398F984C9D4099C28A6EF0C /* JUMachThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F50F2DAB0B69DDA2628E /* JUMachThreads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398FB94CB989BD4D8A97957 /* JUMachMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FE24EE7E7B24D38540E5 /* JUMachMemory.c */; };
+		9398FB98A09E5DBDFE81D4D4 /* JUMachBacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F8B31A44DA620C220DE1 /* JUMachBacktrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398FC01DF94A278313C8B1F /* JUMachi386.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FFF9B83B628CF09C48F2 /* JUMachi386.c */; };
+		9398FC06A0FB4A9503278538 /* JUMachThreads.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398F60B06C287ED299EE0F4 /* JUMachThreads.c */; };
+		9398FDD66FD098434DED7110 /* JUMach.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F20A08FE2CD255781443 /* JUMach.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9398FED5971D9C174BBBE86D /* JUMachBacktrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FDDB44E4035744AFB821 /* JUMachBacktrace.c */; };
+		9398FF32B7260977AC5E2C83 /* JUMachMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 9398FE24EE7E7B24D38540E5 /* JUMachMemory.c */; };
+		9398FFAD88F9E43ACE83C58B /* JUMachBacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F8B31A44DA620C220DE1 /* JUMachBacktrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CEDA431CDCB97A00D85637 /* JUMachHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FF9876B936703F9C6FD4 /* JUMachHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CEDA451CDCB98F00D85637 /* JUMachThreads.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398F50F2DAB0B69DDA2628E /* JUMachThreads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CEDA461CDCB99100D85637 /* JUMachHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9398FF9876B936703F9C6FD4 /* JUMachHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9398FA3E4469ABA70FB72DCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9398F084C1F0F27AE093079F /* JUMachMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMachMemory.h; sourceTree = "<group>"; };
+		9398F20A08FE2CD255781443 /* JUMach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMach.h; sourceTree = "<group>"; };
+		9398F37BF45A8A118B9B963C /* JUMachAMD64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachAMD64.c; sourceTree = "<group>"; };
+		9398F47FBF51CAC3CC51A758 /* JUMachAarch64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachAarch64.c; sourceTree = "<group>"; };
+		9398F50F2DAB0B69DDA2628E /* JUMachThreads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMachThreads.h; sourceTree = "<group>"; };
+		9398F60B06C287ED299EE0F4 /* JUMachThreads.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachThreads.c; sourceTree = "<group>"; };
+		9398F8B31A44DA620C220DE1 /* JUMachBacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMachBacktrace.h; sourceTree = "<group>"; };
+		9398FDDB44E4035744AFB821 /* JUMachBacktrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachBacktrace.c; sourceTree = "<group>"; };
+		9398FE24EE7E7B24D38540E5 /* JUMachMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachMemory.c; sourceTree = "<group>"; };
+		9398FF37341ADD2E34BB8312 /* libJUMach-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libJUMach-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9398FF9876B936703F9C6FD4 /* JUMachHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUMachHelper.h; sourceTree = "<group>"; };
+		9398FFDCE3215582A41397AA /* JUMachArm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachArm.c; sourceTree = "<group>"; };
+		9398FFF9B83B628CF09C48F2 /* JUMachi386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JUMachi386.c; sourceTree = "<group>"; };
+		E97FD2371CDC9CFF0007491E /* libJUMach-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libJUMach-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9398FB064B0827EFB87DF2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97FD2341CDC9CFF0007491E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9398F7D286A1002015B41C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9398FF37341ADD2E34BB8312 /* libJUMach-iOS.a */,
+				E97FD2371CDC9CFF0007491E /* libJUMach-OSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9398F97215A495C1E1CFC58B = {
+			isa = PBXGroup;
+			children = (
+				E97FD2271CDC9CC90007491E /* Source */,
+				9398F7D286A1002015B41C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97FD2271CDC9CC90007491E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9398F60B06C287ED299EE0F4 /* JUMachThreads.c */,
+				9398F50F2DAB0B69DDA2628E /* JUMachThreads.h */,
+				9398FF9876B936703F9C6FD4 /* JUMachHelper.h */,
+				9398F47FBF51CAC3CC51A758 /* JUMachAarch64.c */,
+				9398FFDCE3215582A41397AA /* JUMachArm.c */,
+				9398F37BF45A8A118B9B963C /* JUMachAMD64.c */,
+				9398FFF9B83B628CF09C48F2 /* JUMachi386.c */,
+				9398FE24EE7E7B24D38540E5 /* JUMachMemory.c */,
+				9398F084C1F0F27AE093079F /* JUMachMemory.h */,
+				9398FDDB44E4035744AFB821 /* JUMachBacktrace.c */,
+				9398F8B31A44DA620C220DE1 /* JUMachBacktrace.h */,
+				9398F20A08FE2CD255781443 /* JUMach.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E97FD2351CDC9CFF0007491E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398F984C9D4099C28A6EF0C /* JUMachThreads.h in Headers */,
+				E9CEDA431CDCB97A00D85637 /* JUMachHelper.h in Headers */,
+				9398F8362856A3A2E9AB7E3A /* JUMachMemory.h in Headers */,
+				9398FB98A09E5DBDFE81D4D4 /* JUMachBacktrace.h in Headers */,
+				9398F34AADB091CAB0945054 /* JUMach.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CEDA441CDCB98C00D85637 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9CEDA451CDCB98F00D85637 /* JUMachThreads.h in Headers */,
+				E9CEDA461CDCB99100D85637 /* JUMachHelper.h in Headers */,
+				9398F40E4008FD450F342928 /* JUMachMemory.h in Headers */,
+				9398FFAD88F9E43ACE83C58B /* JUMachBacktrace.h in Headers */,
+				9398FDD66FD098434DED7110 /* JUMach.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9398F3DB9EF0431314D96D13 /* JUMach-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9398FE6381BBF5CA20F91CDF /* Build configuration list for PBXNativeTarget "JUMach-iOS" */;
+			buildPhases = (
+				9398FECD61EABB9E5972CF07 /* Sources */,
+				9398FB064B0827EFB87DF2E3 /* Frameworks */,
+				9398FA3E4469ABA70FB72DCA /* CopyFiles */,
+				E9CEDA441CDCB98C00D85637 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JUMach-iOS";
+			productName = JUMach;
+			productReference = 9398FF37341ADD2E34BB8312 /* libJUMach-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E97FD2361CDC9CFF0007491E /* JUMach-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97FD23F1CDC9CFF0007491E /* Build configuration list for PBXNativeTarget "JUMach-OSX" */;
+			buildPhases = (
+				E97FD2331CDC9CFF0007491E /* Sources */,
+				E97FD2341CDC9CFF0007491E /* Frameworks */,
+				E97FD2351CDC9CFF0007491E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JUMach-OSX";
+			productName = JUMach;
+			productReference = E97FD2371CDC9CFF0007491E /* libJUMach-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9398FD87A7D6493A1459D90A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Sidney Just";
+				TargetAttributes = {
+					E97FD2361CDC9CFF0007491E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9398F7E0E18789B0A5470385 /* Build configuration list for PBXProject "JUMach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9398F97215A495C1E1CFC58B;
+			productRefGroup = 9398F7D286A1002015B41C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9398F3DB9EF0431314D96D13 /* JUMach-iOS */,
+				E97FD2361CDC9CFF0007491E /* JUMach-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9398FECD61EABB9E5972CF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398F97B28A3F9C0C8587387 /* JUMachThreads.c in Sources */,
+				9398F3CE3765A8D11AEC562D /* JUMachAarch64.c in Sources */,
+				9398F53F9BDA828E19D276EC /* JUMachArm.c in Sources */,
+				9398F81313BA50AB28C12936 /* JUMachAMD64.c in Sources */,
+				9398FC01DF94A278313C8B1F /* JUMachi386.c in Sources */,
+				9398FB94CB989BD4D8A97957 /* JUMachMemory.c in Sources */,
+				9398F8F30F2365AFFE376FE4 /* JUMachBacktrace.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97FD2331CDC9CFF0007491E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9398FC06A0FB4A9503278538 /* JUMachThreads.c in Sources */,
+				9398F95E933768345DFF729A /* JUMachAarch64.c in Sources */,
+				9398F461606A218454E172FF /* JUMachArm.c in Sources */,
+				9398F19A0F420427AE5D08F3 /* JUMachAMD64.c in Sources */,
+				9398F3DA4E8DC3C64B414100 /* JUMachi386.c in Sources */,
+				9398FF32B7260977AC5E2C83 /* JUMachMemory.c in Sources */,
+				9398FED5971D9C174BBBE86D /* JUMachBacktrace.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9398F1F3B2AE71C15DA3863D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9398F771B7190187B2A60204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9398FA2A4E00A33560303BC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9398FD3C9B05FF6F9F1C0538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E97FD2401CDC9CFF0007491E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E97FD2411CDC9CFF0007491E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9398F7E0E18789B0A5470385 /* Build configuration list for PBXProject "JUMach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398F1F3B2AE71C15DA3863D /* Debug */,
+				9398FA2A4E00A33560303BC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9398FE6381BBF5CA20F91CDF /* Build configuration list for PBXNativeTarget "JUMach-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9398F771B7190187B2A60204 /* Debug */,
+				9398FD3C9B05FF6F9F1C0538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97FD23F1CDC9CFF0007491E /* Build configuration list for PBXNativeTarget "JUMach-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97FD2401CDC9CFF0007491E /* Debug */,
+				E97FD2411CDC9CFF0007491E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9398FD87A7D6493A1459D90A /* Project object */;
+}
