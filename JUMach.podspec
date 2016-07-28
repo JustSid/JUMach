@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 	spec.name = 'JUMach'
-	spec.version = '0.1'
+	spec.version = '0.2.1'
 	spec.summary = 'Useful helper for cross-platform Mach development'
 	spec.homepage = 'http://github.com/JustSid/JUMach'
 	spec.authors = { 'Sidney Just' => 'justsid@widerwille.co' }
